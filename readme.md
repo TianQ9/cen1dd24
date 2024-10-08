@@ -3,3 +3,4 @@
 ## Le lien live : https://tianq9.github.io/cen1dd24T/
 
 ### Ex2: https://tianq9.github.io/cen1dd24T/s02ex2.html
+(Langue utilisée en Afrique)
