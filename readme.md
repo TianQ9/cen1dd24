@@ -4,6 +4,7 @@
 
 ### Ex1:https://tianq9.github.io/cen1dd24T/s01ex1.html
 ### Ex2: https://tianq9.github.io/cen1dd24T/s02ex2.html
-(Langue utilisée en Afrique, tree map)
 ### Ex3:https://tianq9.github.io/cen1dd24T/s03ex3.html
-(Albums_graphiques)
+### Ex4:
+#### https://tianq9.github.io/cen1dd24T/s04ex4-1.html
+
