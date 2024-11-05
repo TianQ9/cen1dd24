@@ -7,5 +7,7 @@
 ### Ex3:  https://tianq9.github.io/cen1dd24T/s03ex3.html
 ### Ex4-1:  https://tianq9.github.io/cen1dd24T/s04ex4-1.html
 ### Ex4-2:  https://tianq9.github.io/cen1dd24T/s04ex4-2.html
+### Ex5:  https://tianq9.github.io/cen1dd24T/s05ex5.html
+
 
 
