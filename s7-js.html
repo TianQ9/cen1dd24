@@ -16,7 +16,7 @@
       height:500px;
       width:500px;
       background-color:green;
-      color:black;
+      color:white;
       
     }
     
@@ -42,15 +42,24 @@
           //document.getElementById('carre').innerHTML = nomNom;
         
         for(var i = 0; i < 10; i+=1){
-          //document.getElementById('page').innerHTML = nomNom;
-          document.getElementById('page').innerHTML += '<div class="donnee">' + nomNom + '</div>';
+          document.getElementById('page').innerHTML = nomNom;
+          //document.getElementById('page').innerHTML += '<div class="donnee" style="width:100px">' + nomNom + '</div>';
+         // document.getElementById('page').innerHTML += '<div class="donnee" style="width:' + Math.random() * 500 +'"100px">' + nomNom + '</div>';
+
         }
+        
+      function changeLargeur(){
+        document.getElementById('carre').style.width = Math.random() * 500 + 'px';
+      }
+        
+        
       }
      //window.alert('Hello world');
     </script>
   
     <button onclick="popup();">lancer un popup</button> 
     <div id="carre"></div>
+    <!-- <div id="carre" onmousenter="changeLargeur();"></div> -->
     <div id="page"></div>
     
 </body>
