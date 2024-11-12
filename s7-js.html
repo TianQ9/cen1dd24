@@ -4,6 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
+  <style>
+    #carre{
+      height:100px;
+      width:100px;
+      background-color:pink;
+      color:white;
+      
+    }
+    #page{
+      height:100px;
+      width:100px;
+      background-color:green;
+      color:white;
+      
+    }
+  </style>
 </head>
 <body>
 
@@ -15,13 +31,20 @@
       function popup(){
         //window.alert("salut");
         //window.prompt('Salut cen! Quel est votre prenom?');
-         var nomNom = window.prompt('Salut cen! Quel est votre prenom?');
-         document.getElementById('carre').innerHTML = nomNom;
+         var nomNom = window.prompt('Salut cen! Quel est votre prenom?');   
+          //document.getElementById('carre').innerHTML = nomNom;
+        
+        for(var i = 0; i < 10; i+=1){
+          //document.getElementById('page').innerHTML = nomNom;
+          document.getElementById('page').innerHTML += '<div class="donnee">' + nomNom + '</div>';
+        }
       }
      //window.alert('Hello world');
     </script>
   
-    <button onclick="popup();">lancer un popup</button>  
+    <button onclick="popup();">lancer un popup</button> 
+    <div id="carre"></div>
+    <div id="page"></div>
   
 </body>
 </html>
