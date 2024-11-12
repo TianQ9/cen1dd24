@@ -9,13 +9,16 @@
 
     <script>
       window.onload = function(){
-        //window.alert("hello Tian");
+        //window.alert('hello Tian');
       }
       
       function popup(){
-        window.alert("salut");
+        //window.alert("salut");
+        //window.prompt('Salut cen! Quel est votre prenom?');
+         var nomNom = window.prompt('Salut cen! Quel est votre prenom?');
+         document.getElementById('carre').innerHTML = nomNom;
       }
-     //window.alert("Hello world");
+     //window.alert('Hello world');
     </script>
   
     <button onclick="popup();">lancer un popup</button>  
